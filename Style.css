@@ -1,0 +1,190 @@
+/*Estilos Generales*/
+
+a {
+    text-decoration: none;
+}
+
+.statement {
+    padding: 50px 100px;
+    font-family: 'padauk';
+    font-size: 18px;
+}
+
+.statement p {
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.85);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 3;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+ul li a {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+ul li a:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*Estilos de Body*/
+
+.static-header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+}
+
+.static-header .logo-parent {
+    float: left;
+    margin: 50px 0 20px 40px;
+}
+
+.static-header .logo-parent a {
+    font-family: 'Poiret One';
+    color: black;
+    font-size: 40px;
+}
+
+#nav {
+    float: right;
+    margin: 50px 40px 20px 0px;
+}
+
+#nav ul {
+    font-family: 'padauk';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    float: left;
+    margin: 10px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.ourStory-parent {
+    z-index: 1;
+}
+
+.backg-ourStory {
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/spinach-pomegranate-and-chicken-salad.jpg);
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.our-title {
+    position: relative;
+    width: auto;
+    height: 140px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'padauk';
+    background-color: white;
+}
+
+.our-title p {
+    margin: 0;
+    padding: 40px 0;
+}
+
+.backg-mission {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.backg-mission .title {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/salmon-and-blood-orange-bruschettas.jpg);
+    background-attachment: fixed;
+    padding-top: 140px;
+    height: 260px;
+    font-size: 60px;
+    font-family: 'padauk';
+    color: white;
+}
+
+.backg-values {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.backg-values .title {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/blueberries-2270379_1920.jpg);
+    background-attachment: fixed;
+    padding-top: 140px;
+    height: 260px;
+    font-size: 60px;
+    font-family: 'padauk';
+    color: white;
+}
+
+.backg-providers {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.backg-providers .title {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/strawberries-484272_1920.jpg);
+    background-attachment: fixed;
+    padding-top: 140px;
+    height: 260px;
+    font-size: 60px;
+    font-family: 'padauk';
+    color: white;
+}
+
+.backg-contact {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.backg-contact .title {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/stock-photo-man-owner-fresh-grocery-organic-shop-604249349.jpg);
+    background-attachment: fixed;
+    padding-top: 240px;
+    height: 360px;
+    font-size: 60px;
+    font-family: 'padauk';
+    color: white;
+}
