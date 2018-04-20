@@ -32,6 +32,10 @@ a {
     transition: all 0.5s ease;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 ul li a {
     color: rgba(0, 0, 0, 0.65);
 }
@@ -40,8 +44,25 @@ ul li a:hover {
     color: rgba(0, 0, 0, 0.87);
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.origin {
+    font-family: 'padauk';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54) !important;
+    padding: 0 !important;
+}
+
+.title {
+    font-family: 'padauk';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.80) !important;
+    padding: 0 !important;
+}
+
+.price {
+    font-family: 'padauk';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54) !important;
+    padding: 0 !important;
 }
 
 /*Estilos de Body*/
@@ -84,125 +105,70 @@ ul li a:hover {
     padding: 0 5px;
 }
 
-.ourStory-parent {
+.products-parent {
     z-index: 1;
 }
 
-.backg-ourStory {
+.backg-products {
     top: 0;
     width: 100%;
     background-size: cover;
-    background-image: url(assets/spinach-pomegranate-and-chicken-salad.jpg);
+    background-image: url(../assets/farm-sunset.jpg);
     background-attachment: fixed;
     height: 600px;
-}
-
-.our-title {
-    position: relative;
-    width: auto;
-    height: 140px;
     text-align: center;
-    font-size: 40px;
-    font-family: 'padauk';
-    background-color: white;
 }
 
-.our-title p {
-    margin: 0;
-    padding: 40px 0;
-}
-
-.statement .subTitle {
-    font-size: 20px;
-    padding-bottom: 8px;
-}
-
-.statement .subTitle.eat {
-    color: #536DFE;
-}
-
-.statement .subTitle.feel {
-    color: #009688;
-}
-
-.statement .subTitle.do {
-    color: #FFB300;
-}
-
-.backg-mission {
-    text-align: center;
-    z-index: 2;
-    width: 100%;
-}
-
-.backg-mission .title {
+.backg-products .title {
     margin: 0;
     width: 100%;
     background-size: cover;
     background-image: url(assets/salmon-and-blood-orange-bruschettas.jpg);
     background-attachment: fixed;
-    padding-top: 140px;
+    padding-top: 300px !important;
     height: 260px;
     font-size: 60px;
     font-family: 'padauk';
-    color: white;
+    color: white !important;
 }
 
-.backg-values {
+.products-title {
+    position: relative;
+    width: 100%;
     text-align: center;
-    z-index: 2;
-    width: 100%;
-}
-
-.backg-values .title {
-    margin: 0;
-    width: 100%;
-    background-size: cover;
-    background-image: url(assets/blueberries-2270379_1920.jpg);
-    background-attachment: fixed;
-    padding-top: 140px;
-    height: 260px;
-    font-size: 60px;
+    font-size: 25px;
     font-family: 'padauk';
-    color: white;
+    background-color: white;
 }
 
-.backg-providers {
-    text-align: center;
-    z-index: 2;
-    width: 100%;
-}
-
-.backg-providers .title {
+.products-title p {
     margin: 0;
-    width: 100%;
-    background-size: cover;
-    background-image: url(assets/strawberries-484272_1920.jpg);
-    background-attachment: fixed;
-    padding-top: 140px;
-    height: 260px;
-    font-size: 60px;
-    font-family: 'padauk';
-    color: white;
+    padding: 40px 0;
+    color: rgba(0, 0, 0, 0.80);
 }
 
-.backg-contact {
-    text-align: center;
-    z-index: 2;
-    width: 100%;
+.products-row {
+    margin: 25px 5%;
 }
 
-.backg-contact .title {
-    margin: 0;
+.products-column {
+    float: left;
+    width: 20%;
+    padding: 0 24px;
+}
+
+.product-item {
+    text-align: left;
+}
+
+.product-item img {
     width: 100%;
-    background-size: cover;
-    background-image: url(assets/contact.jpg);
-    background-attachment: fixed;
-    padding-top: 240px;
-    height: 360px;
-    font-size: 60px;
-    font-family: 'padauk';
-    color: white;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+
+.drinks {
+    margin-bottom: 150px;
 }
 
 .column {
@@ -231,6 +197,7 @@ ul li a:hover {
 
 .footerbckg {
     background-color: rgba(0, 0, 0, 0.02);
+    text-align: center;
 }
 
 .footer-title {
